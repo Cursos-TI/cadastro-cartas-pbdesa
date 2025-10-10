@@ -93,8 +93,8 @@ int main() {
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
-    printf("Área: %.2f km2\n", area2); // Formata para exibir 2 casas decimais
-    printf("PIB: %.2f bilhões de reais\n", pib2); // Formata para exibir 2 casas decimais
+    printf("Área: %.2f km2\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2); 
     printf("Numero de Pontos Turísticos: %d\n\n", pontosturisticos2);
    
 return 0;
