@@ -48,10 +48,11 @@ int main() {
 
     printf("Digite a quantidade de pontos turísticos: ");
     scanf("%d", &pontosturisticos1);
+    
     printf("\n"); 
 
    // --- Leitura dos Dados da Carta 2 ---
-    printf("Carta 1 \n");
+    printf("Carta 2 \n");
 
     printf("Digite uma letra para o Estado (A-H): ");
     scanf(" %c", &estado2); 
