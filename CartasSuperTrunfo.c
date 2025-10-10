@@ -51,29 +51,29 @@ int main() {
     printf("\n"); 
 
     // --- Leitura dos Dados da Carta 2 ---
-    printf("--- Inserindo dados da Carta 2 ---\n");
+    printf("Carta 1 \n");
 
-    printf("Digite o Estado (A-H): ");
-    scanf(" %c", &estado2); // Espaço antes de %c para consumir quebras de linha pendentes
+    printf("Digite uma letra para o Estado (A-H): ");
+    scanf(" %c", &estado2); 
 
-    printf("Digite o Codigo da Carta (ex: B03): ");
+    printf("Digite a letra do Estado + código 01 a 04 (ex: A01): ");
     scanf("%s", codigo2);
 
-    printf("Digite o Nome da Cidade: ");
+    printf("Digite o nome da cidade: ");
     scanf("%s", cidade2);
 
-    printf("Digite a Populacao: ");
+    printf("Digite a população: ");
     scanf("%d", &populacao2);
 
-    printf("Digite a Area (em km2): ");
+    printf("Digite a área (em km2): ");
     scanf("%f", &area2);
 
-    printf("Digite o PIB (em bilhoes): ");
+    printf("Digite o PIB da cidade: ");
     scanf("%f", &pib2);
 
-    printf("Digite o Numero de Pontos Turisticos: ");
+    printf("Digite a quantidade de pontos turísticos: ");
     scanf("%d", &pontosTuristicos2);
-    printf("\n\n"); // Adiciona duas linhas em branco para separar a entrada da saída
+    printf("\n"); 
   // Área para exibição dos dados da cidade
 
    
