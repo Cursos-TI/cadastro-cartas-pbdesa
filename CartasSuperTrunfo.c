@@ -13,7 +13,7 @@ int main() {
     int populacao1;
     float area1;
     float pib1;
-    int pontosTuristicos1;
+    int pontosturisticos1;
 
    // Variáveis para armazenar os dados da segunda carta
     char estado2;
@@ -22,7 +22,7 @@ int main() {
     int populacao2;
     float area2;
     float pib2;
-    int pontosTuristicos2;
+    int pontosturisticos2;
 
     // Área para entrada de dados
     // --- Leitura dos Dados da Carta 1 ---
@@ -47,7 +47,7 @@ int main() {
     scanf("%f", &pib1);
 
     printf("Digite a quantidade de pontos turísticos: ");
-    scanf("%d", &pontosTuristicos1);
+    scanf("%d", &pontosturisticos1);
     printf("\n"); 
 
    // --- Leitura dos Dados da Carta 2 ---
@@ -72,7 +72,7 @@ int main() {
     scanf("%f", &pib2);
 
     printf("Digite a quantidade de pontos turísticos: ");
-    scanf("%d", &pontosTuristicos2);
+    scanf("%d", &pontosturisticos2);
     printf("\n"); 
 
    // Área para exibição dos dados da cidade
@@ -84,18 +84,18 @@ int main() {
     printf("População: %d\n", populacao1);
     printf("Área: %.2f km2\n", area1); 
     printf("PIB: %.2f bilhões de reais\n", pib1); 
-    printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
+    printf("Numero de Pontos Turísticos: %d\n", pontosturisticos1);
     printf("\n"); 
 
    // Exibe as informações da Carta 2
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
-    printf("Codigo: %s\n", codigo2);
+    printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
-    printf("Populacao: %d\n", populacao2);
-    printf("Area: %.2f km2\n", area2); // Formata para exibir 2 casas decimais
-    printf("PIB: %.2f bilhoes de reais\n", pib2); // Formata para exibir 2 casas decimais
-    printf("Numero de Pontos Turisticos: %d\n\n", pontosTuristicos2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f km2\n", area2); // Formata para exibir 2 casas decimais
+    printf("PIB: %.2f bilhões de reais\n", pib2); // Formata para exibir 2 casas decimais
+    printf("Numero de Pontos Turísticos: %d\n\n", pontosturisticos2);
    
 return 0;
 } 
