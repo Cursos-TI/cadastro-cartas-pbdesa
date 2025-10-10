@@ -48,7 +48,6 @@ int main() {
 
     printf("Digite a quantidade de pontos turísticos: ");
     scanf("%d", &pontosturisticos1);
-    
     printf("\n"); 
 
    // --- Leitura dos Dados da Carta 2 ---
