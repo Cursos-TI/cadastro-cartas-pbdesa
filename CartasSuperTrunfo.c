@@ -101,7 +101,7 @@ int main() {
     percapita2 = (float) (pib2 * 1000000000) / populacao2;
 
    // --- Cálculo do Super Poder da Carta 2 ---
-    superpoder2 = (float) populacao2 + area2 + pib2 + pontosturisticos2 + percapita2 + (1 / densidade2)
+    superpoder2 = (float) populacao2 + area2 + pib2 + pontosturisticos2 + percapita2 + (1 / densidade2);
 
    // Área para exibição dos dados da cidade
    // Exibe as informações da Carta 1
