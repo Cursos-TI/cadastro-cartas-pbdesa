@@ -128,7 +128,8 @@ int main() {
     printf("Numero de Pontos Turísticos: %d\n", pontosturisticos2);
     printf("Densidade Populacional: %.2f hab/km2\n", densidade2);
     printf("PIB per Capita: %.2f reais\n", percapita2);
-   
+    printf("\n");
+    
     // --- Efetuar as comparações entre as cartas e apresentar o ganhador ---
     printf("Comparação de Cartas:\n");
     
