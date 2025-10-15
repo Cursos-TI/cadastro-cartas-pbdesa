@@ -130,6 +130,8 @@ int main() {
     printf("PIB per Capita: %.2f reais\n", percapita2);
    
     // --- Efetuar as comparações entre as cartas e apresentar o ganhador ---
+    printf("Comparação de Cartas:\n");
+    
     respopulacao = populacao1 > populacao2;
     printf("População: %lu\n", respopulacao);
 
